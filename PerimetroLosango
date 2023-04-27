@@ -1,0 +1,5 @@
+function perimetroDoLosango(diagonalMaior, diagonalMenor) {
+const perimetroDoLosango = Math.sqrt(Math.pow(diagonalMaior/2, 2) + Math.pow(diagonalMenor/2, 2))
+    const perimetro = perimetroDoLosango * 4 
+    return perimetro
+}
