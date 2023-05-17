@@ -6,3 +6,13 @@ let total = areaquad + arearect
 return total
 
 } 
+
+
+-----------------------------------------------------------------
+
+function superficieDoParalelepipedoQuadrado(ladodabase, comprimento){
+const areaBase = ladodabase * ladodabase;
+  const areaLateral = 4 * ladodabase * comprimento;
+  const areaTotal = 2 * areaBase + areaLateral;
+  return areaTotal;
+}
